@@ -1,0 +1,154 @@
+
+100 games, random selection
+===========================
+
+True skills:
+[|31.07594569; 29.3880246; 20.16464287; 31.88071652; 36.41632968; 37.89305194;
+  28.27188421; 1.430927048; 22.86234352; 28.69866532|]
+Inferred skills:
+[0] Gaussian(29.77, 9.416)
+[1] Gaussian(26.56, 6.439)
+[2] Gaussian(16.6, 10.67)
+[3] Gaussian(30.5, 8.983)
+[4] Gaussian(30.17, 8.914)
+[5] Gaussian(37.26, 10.44)
+[6] Gaussian(27.1, 10.19)
+[7] Gaussian(4.998, 18.18)
+[8] Gaussian(20.33, 9.144)
+[9] Gaussian(26.71, 9.128)
+
+Tournament summary:
+player 1: wins: 9, losses: 4, draws: 8, imbalance: 0.238095, balance: 0.692308
+player 2: wins: 6, losses: 4, draws: 20, imbalance: 0.066667, balance: 0.600000
+player 3: wins: 1, losses: 9, draws: 7, imbalance: 0.470588, balance: 0.100000
+player 4: wins: 8, losses: 4, draws: 9, imbalance: 0.190476, balance: 0.666667
+player 5: wins: 4, losses: 1, draws: 15, imbalance: 0.150000, balance: 0.800000
+player 6: wins: 10, losses: 0, draws: 8, imbalance: 0.555556, balance: 1.000000
+player 7: wins: 5, losses: 2, draws: 10, imbalance: 0.176471, balance: 0.714286
+player 8: wins: 0, losses: 15, draws: 1, imbalance: 0.937500, balance: 0.000000
+player 9: wins: 4, losses: 9, draws: 7, imbalance: 0.250000, balance: 0.307692
+player 10: wins: 5, losses: 4, draws: 11, imbalance: 0.050000, balance: 0.555556
+average tournament imbalance: 0.308535
+
+100 games, 10 games per round
+=============================
+
+True skills:
+[|31.07594569; 29.3880246; 20.16464287; 31.88071652; 36.41632968; 37.89305194;
+  28.27188421; 1.430927048; 22.86234352; 28.69866532|]
+Inferred skills:
+[0] Gaussian(29.3, 5.779)
+[1] Gaussian(24.8, 6.348)
+[2] Gaussian(16.66, 11.58)
+[3] Gaussian(26.29, 7.015)
+[4] Gaussian(33.46, 7.987)
+[5] Gaussian(37.56, 22.59)
+[6] Gaussian(23.81, 6.23)
+[7] Gaussian(7.778, 24.09)
+[8] Gaussian(20.5, 15.35)
+[9] Gaussian(29.85, 7.032)
+
+Tournament summary:
+player 1: wins: 11, losses: 7, draws: 14, imbalance: 0.125000, balance: 0.611111
+player 2: wins: 5, losses: 7, draws: 16, imbalance: 0.071429, balance: 0.416667
+player 3: wins: 2, losses: 7, draws: 6, imbalance: 0.333333, balance: 0.222222
+player 4: wins: 6, losses: 4, draws: 15, imbalance: 0.080000, balance: 0.600000
+player 5: wins: 8, losses: 4, draws: 10, imbalance: 0.181818, balance: 0.666667
+player 6: wins: 3, losses: 0, draws: 3, imbalance: 0.500000, balance: 1.000000
+player 7: wins: 6, losses: 8, draws: 15, imbalance: 0.068966, balance: 0.428571
+player 8: wins: 0, losses: 6, draws: 1, imbalance: 0.857143, balance: 0.000000
+player 9: wins: 5, losses: 3, draws: 3, imbalance: 0.181818, balance: 0.625000
+player 10: wins: 5, losses: 5, draws: 15, imbalance: 0.000000, balance: 0.500000
+average tournament imbalance: 0.239951
+
+100 games, 3 games per round
+============================
+True skills:
+[|31.07594569; 29.3880246; 20.16464287; 31.88071652; 36.41632968; 37.89305194;
+  28.27188421; 1.430927048; 22.86234352; 28.69866532|]
+Inferred skills:
+[0] Gaussian(23.94, 7.914)
+[1] Gaussian(26.06, 4.346)
+[2] Gaussian(16.67, 26.56)
+[3] Gaussian(29.25, 7.117)
+[4] Gaussian(31.11, 10.26)
+[5] Gaussian(39.78, 36.62)
+[6] Gaussian(26.15, 5.101)
+[7] Gaussian(11.43, 37.71)
+[8] Gaussian(21.1, 13.96)
+[9] Gaussian(24.53, 5.148)
+
+Tournament summary:
+player 1: wins: 3, losses: 6, draws: 13, imbalance: 0.136364, balance: 0.333333
+player 2: wins: 5, losses: 5, draws: 32, imbalance: 0.000000, balance: 0.500000
+player 3: wins: 0, losses: 3, draws: 2, imbalance: 0.600000, balance: 0.000000
+player 4: wins: 7, losses: 4, draws: 14, imbalance: 0.120000, balance: 0.636364
+player 5: wins: 7, losses: 2, draws: 8, imbalance: 0.294118, balance: 0.777778
+player 6: wins: 3, losses: 0, draws: 0, imbalance: 1.000000, balance: 1.000000
+player 7: wins: 6, losses: 5, draws: 25, imbalance: 0.027778, balance: 0.545455
+player 8: wins: 0, losses: 3, draws: 0, imbalance: 1.000000, balance: 0.000000
+player 9: wins: 3, losses: 4, draws: 5, imbalance: 0.083333, balance: 0.428571
+player 10: wins: 3, losses: 5, draws: 27, imbalance: 0.057143, balance: 0.375000
+average tournament imbalance: 0.331874
+
+300 games, 10 games per round
+=============================
+
+True skills:
+[|31.07594569; 29.3880246; 20.16464287; 31.88071652; 36.41632968; 37.89305194;
+  28.27188421; 1.430927048; 22.86234352; 28.69866532|]
+Inferred skills:
+[0] Gaussian(28.82, 2.556)
+[1] Gaussian(27.64, 2.277)
+[2] Gaussian(19.35, 4.157)
+[3] Gaussian(28.36, 2.425)
+[4] Gaussian(32.9, 2.939)
+[5] Gaussian(33.91, 3.602)
+[6] Gaussian(23.9, 2.904)
+[7] Gaussian(6.869, 12.78)
+[8] Gaussian(21.2, 2.845)
+[9] Gaussian(26.4, 2.49)
+
+Tournament summary:
+player 1: wins: 21, losses: 14, draws: 37, imbalance: 0.097222, balance: 0.600000
+player 2: wins: 18, losses: 16, draws: 46, imbalance: 0.025000, balance: 0.529412
+player 3: wins: 9, losses: 10, draws: 26, imbalance: 0.022222, balance: 0.473684
+player 4: wins: 19, losses: 13, draws: 43, imbalance: 0.080000, balance: 0.593750
+player 5: wins: 14, losses: 10, draws: 38, imbalance: 0.064516, balance: 0.583333
+player 6: wins: 11, losses: 6, draws: 33, imbalance: 0.100000, balance: 0.647059
+player 7: wins: 14, losses: 15, draws: 34, imbalance: 0.015873, balance: 0.482759
+player 8: wins: 0, losses: 11, draws: 4, imbalance: 0.733333, balance: 0.000000
+player 9: wins: 12, losses: 13, draws: 40, imbalance: 0.015385, balance: 0.480000
+player 10: wins: 12, losses: 22, draws: 39, imbalance: 0.136986, balance: 0.352941
+average tournament imbalance: 0.129054
+
+300 games, random selection
+===========================
+
+True skills:
+[|31.07594569; 29.3880246; 20.16464287; 31.88071652; 36.41632968; 37.89305194;
+  28.27188421; 1.430927048; 22.86234352; 28.69866532|]
+Inferred skills:
+[0] Gaussian(28.72, 3.679)
+[1] Gaussian(26.42, 2.712)
+[2] Gaussian(16, 4.115)
+[3] Gaussian(29.83, 3.775)
+[4] Gaussian(32.58, 3.444)
+[5] Gaussian(36.76, 3.658)
+[6] Gaussian(29.04, 3.789)
+[7] Gaussian(-0.4838, 8.157)
+[8] Gaussian(24.3, 3.184)
+[9] Gaussian(26.97, 3.542)
+
+Tournament summary:
+player 1: wins: 19, losses: 10, draws: 26, imbalance: 0.163636, balance: 0.655172
+player 2: wins: 15, losses: 14, draws: 45, imbalance: 0.013514, balance: 0.517241
+player 3: wins: 3, losses: 28, draws: 20, imbalance: 0.490196, balance: 0.096774
+player 4: wins: 25, losses: 11, draws: 21, imbalance: 0.245614, balance: 0.694444
+player 5: wins: 22, losses: 3, draws: 35, imbalance: 0.316667, balance: 0.880000
+player 6: wins: 37, losses: 1, draws: 26, imbalance: 0.562500, balance: 0.973684
+player 7: wins: 16, losses: 6, draws: 31, imbalance: 0.188679, balance: 0.727273
+player 8: wins: 0, losses: 65, draws: 3, imbalance: 0.955882, balance: 0.000000
+player 9: wins: 13, losses: 15, draws: 35, imbalance: 0.031746, balance: 0.464286
+player 10: wins: 13, losses: 10, draws: 32, imbalance: 0.054545, balance: 0.565217
+average tournament imbalance: 0.302298

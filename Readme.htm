@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" >
+<head>
+    <title>Infer.NET 2.5</title>
+    <style type="text/css">
+        .style1 {
+            text-decoration: none;
+            color: #0072BC;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Infer.NET 2.5 Release</h2>
+    
+    <h3>Welcome to Infer.NET!</h3>
+    
+    <p> Infer.NET is a library for probabilistic inference in graphical
+    models providing state-of-the-art message-passing algorithms, graph algorithms,
+    and linear algebra routines needed by modern machine learning applications.
+    Infer.NET is pure .NET and Microsoft-owned. It is available under a 
+	non-commercial license.</p>
+
+    <p> Infer.NET Fun is a domain-specific language for probabilistic modelling that is embedded in F# and compiled to Infer.NET.</p>
+    
+    <h3>Documentation</h3>
+    
+    <p>Documentation is available in online form at
+	<a href="http://research.microsoft.com/infernet">
+	http://research.microsoft.com/infernet</a>. It includes a user guide, tutorials and examples, and code 
+	documentation. The user guide is also provided as a standalone .CHM file as part of 
+        the installation.</p>
+	<h3>
+        Installation</h3>
+	<p>
+        Infer.NET is distributed as a zip-file (this is a change from previous beta 
+        releases). Copy this to a folder of your choice, and unzip. The folder structure 
+        looks as follows:</p>
+    <ul>
+        <li>Infer.NET<ul>
+            <li>Bin</li>
+            <li>Source<ul>
+                <li>Distributions</li>
+                <li>Factors</li>
+                <li>Wrappers</li>
+                </ul>
+            </li>
+            <li>Samples</li>
+            </ul>
+        </li>
+        <ul>
+            <ul>
+                <li>C#</li>
+                <li>Fun</li>
+                <li>IronPython</li>
+            </ul>
+            <li>Documentation</li>
+        </ul>
+    </ul>
+    <p>
+        The Bin folder contains the Infer.NET dlls.:</p>
+    <ul>
+        <li>Infer.Compiler.dll is the compiler assembly which takes model descriptions 
+            written using the Infer.NET API, and converts them to inference code.</li>
+        <li>Infer.Runtime.dll is the assembly needed to execute the inference code.</li>
+    </ul>
+    <p>
+        Typically during development you will need to reference both these dlls, but in 
+        some deployment scenarios you may decide to use pre-compiled code which needs 
+        the Runtime dll only.
+    </p>
+    <p>
+        Infer.Fun.dll and Infer.FSharp.dll are different ways to interact with Infer.NET 
+        from F#:</p>
+    <ul>
+        <li><a id="1::Introducing Infer.NET Fun|Infer.Fun.dll" class="style1" 
+                href="http://infernet/Wiki/Wiki%20Pages/Introducing%20Infer.NET%20Fun.aspx">
+            Infer.Fun.dll</a> is the assembly for Fun, a syntax extension of F# to allow 
+            succinct descriptions of probabilistic models directly in F#.</li>
+        <li><a id="2::FSharp Wrapper|Infer.FSharp.dll" class="style1" 
+                href="http://infernet/Wiki/Wiki%20Pages/FSharp%20Wrapper.aspx">
+            Infer.FSharp.dll</a> is a wrapper dll that hides some of the generic constructs 
+            in the Infer.NET API allowing simpler calls to the Infer.NET API from standard 
+            F#.</li>
+    </ul>
+    <p>
+        The Bin folder also contains the Examples Browser application which shows and 
+        runs code for several tutorial examples and applications.
+    </p>
+    <p>
+        More complicated C# examples are provided as Visual Studio solutions in the 
+        Sample Solutions folder. Note that the Silverlight version of the Clinical trial 
+        example will not run if it is installed on a network drive.</p>
+    <p>
+        Fun and Iron Python examples are also available under the Samples folder. 
+    </p>
+    <p>
+        The Source folder shows some of the runtime source for Infer.NET - in particular 
+        the distribution classes and the factor classes. The distribution classes can 
+        also be thought of as message classes in that they contain all the operations 
+        needed to mainpulate distributions within message passing algorithms. The factor 
+        classes contain the operations that calculate the output messages for various 
+        factors and input messages.</p>
+    <p>
+        The source folder also contains the sources for F# and Iron Python wrappers, as 
+        well as an __init__ file for Iron Python.</p>
+    <p>
+        The documentation folder contains a standalone offline version of the User Guide 
+        and Application Programming Interface. In addition there are two guides, an 
+        Introduction and Infer.Net 101; the latter is tutorial in nature and guides you 
+        through building progressively more complex models, whilst paying attention to 
+        good software development practice. There is also a Fun Interfaces subfolder which 
+        contains signature files for the Fun assembly; these files document the Fun public APIs.</p>
+    
+    </body>
+</html>

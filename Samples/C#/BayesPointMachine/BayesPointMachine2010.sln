@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BayesPointMachine", "BayesPointMachine\BayesPointMachine.csproj", "{B8C97C54-B254-4B68-9D73-A57B38FE7E9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBPM", "TestBPM\TestBPM.csproj", "{E11660F6-90F6-439B-8B9F-016738B6B453}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8C97C54-B254-4B68-9D73-A57B38FE7E9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8C97C54-B254-4B68-9D73-A57B38FE7E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8C97C54-B254-4B68-9D73-A57B38FE7E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8C97C54-B254-4B68-9D73-A57B38FE7E9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E11660F6-90F6-439B-8B9F-016738B6B453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E11660F6-90F6-439B-8B9F-016738B6B453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E11660F6-90F6-439B-8B9F-016738B6B453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E11660F6-90F6-439B-8B9F-016738B6B453}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

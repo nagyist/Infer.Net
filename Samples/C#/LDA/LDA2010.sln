@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LDA", "LDA\LDA.csproj", "{6FF3E672-378C-4D61-B4CA-A5A5E01C2563}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLDA", "TestLDA\TestLDA.csproj", "{BC303838-9E18-4B27-B819-D316F42DA4D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FF3E672-378C-4D61-B4CA-A5A5E01C2563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF3E672-378C-4D61-B4CA-A5A5E01C2563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF3E672-378C-4D61-B4CA-A5A5E01C2563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF3E672-378C-4D61-B4CA-A5A5E01C2563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC303838-9E18-4B27-B819-D316F42DA4D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC303838-9E18-4B27-B819-D316F42DA4D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC303838-9E18-4B27-B819-D316F42DA4D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC303838-9E18-4B27-B819-D316F42DA4D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
